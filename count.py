@@ -11,7 +11,7 @@ Sample Input:
 Sample Output:
 3
 '''
-elements = int(input()).strip().split()
-given_value = int(input()).strip()
+elements = input().strip().split()
+given_value = input().strip()
 count = elements.count(given_value)
 print(count)
